@@ -19,6 +19,8 @@ const TodoTable = (props) => {
       }
 
     return (
+      <div>
+        <h1>Add new Todo</h1>
         <form onSubmit={addTodo}>
         <label>Description: 
           <input type="text" onChange={inputChanged} name="desc" value={todo.desc} />
@@ -28,6 +30,7 @@ const TodoTable = (props) => {
         </label>
         <input type="submit" value="Add"/>
       </form>
+      </div>
     )
 }
 

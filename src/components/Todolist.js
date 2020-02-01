@@ -27,6 +27,7 @@ if(props === undefined){
 return (
     <div>
       <div className="App">
+        <h1>Your Todos</h1>
         <ReactTable data={props.todos}    
           columns={columns} />
       </div>
